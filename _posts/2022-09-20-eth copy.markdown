@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "ETH Zurich"
+date:   2024-03-24 12:00:00 +00:00
+image: /images/eth_image.png
+categories: education
+authors: "Department of Computer Science"
+degree_title: Master of Science
+uni_website: https://ethz.ch/en.html
+specialization: Major in Visual and Interactive Computing, Minor in Machine Learning
+start_date: "September 2022" 
+end_date: "current"
+
+---
+Something something

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Verifier for FC and CNN Neural Networks"
+date:   2023-11-30 12:00:00 +00:00
+image: /images/deep_poly.png
+categories: project
+author: "Timur Levent Kesdogan"
+
+code: https://github.com/kesdogan/deeppoly-verifier
+---
+This project implements a verifier for fully-connected and convolutional neural networks using DeepPoly convex relaxation, and is implemented in Python using PyTorch.

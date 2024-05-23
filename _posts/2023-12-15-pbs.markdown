@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Bowling simulation using Projective Dynamics"
+date:   2023-12-15 12:00:00 +00:00
+image: /images/sim_balls.png
+categories: project
+author: "Timur Levent Kesdogan"
+
+code: https://github.com/kesdogan/bowling-simulation
+---
+We implement Projective Dynamics to simulate a customizable bowling game. 

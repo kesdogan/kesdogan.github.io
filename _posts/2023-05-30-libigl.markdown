@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "PyTorch implementations for libigl"
+date:   2023-05-30 12:00:00 +00:00
+image: /images/dress_igl.png
+categories: project
+author: "Timur Levent Kesdogan"
+
+code: https://github.com/kesdogan/libigl_gpu
+---
+libigl is a very useful library for handling geoemtry processing tasks. However, it lacks parallalization. I implement some of the most useful methods using pytorch and its parallelization capabilities. 

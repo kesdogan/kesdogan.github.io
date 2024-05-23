@@ -34,39 +34,47 @@
               <h1>
                 Timur Levent Kesdogan
               </h1>
-              <p>I am a Masters student at <a href="https://ethz.ch/en.html">ETH Zurich</a>. I am undertaking a research stay abroad at <a href="https://www.stanford.edu/">Stanford University</a>, where I am part of the <a href="https://www.computationalimaging.org/"a>Computational Imaging Lab</a>. </p>
-                
-              
-              <!-- <p>
-                From 2011 to 2017, I worked at <a href="https://www.intel.com">Intel</a>, as part of <a href="https://www.intelrealsense.com/">Intel RealSense</a>. I primarily designed computer vision algorithms for efficient hardware ASICs, including the Intel RealSense <a href="https://software.intel.com/en-us/articles/realsense-r200-camera">R200</a> and <a href="https://software.intel.com/en-us/realsense/d400">D400</a> RGB-D sensors. Additionally, I worked on <a href="https://github.com/IntelRealSense/librealsense">software APIs</a>, <a href="https://patents.google.com/patent/US9992474B2">active illumination systems</a>, <a href="https://patents.google.com/patent/US9304597">human-computer interaction devices</a>, and helped develop demos for trade shows, including CES 2012-2016.
+              <p>I am currently visiting the <a href="https://www.computationalimaging.org/">Computational Imaging Lab</a> at 
+                <a href="https://www.stanford.edu/">Stanford University</a> for my Master thesis. My advisors are 
+                Dr. <a href="https://www.guandaoyang.com/">Guandao Yang</a> and Prof. <a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a>.
               </p>
               <p>
-                I have an MS in Computer Science (AI focus) from <a href="http://cs.stanford.edu">Stanford University</a>, where I was a research assistant for <a href="http://svl.stanford.edu/">Silvio Savarese</a> and a teaching assistant for <a href="http://svl.stanford.edu/">Fei-Fei Li</a> (<a href="http://vision.stanford.edu/teaching/cs131_fall1617/">CS131</a> & <a href="http://cs231n.stanford.edu/2017/">CS231N</a>). I have a BS in EECS from <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I worked in <a href="https://people.eecs.berkeley.edu/~pister/">Kris Pister's</a> lab.
+                I am a Master's student at <a href="https://ethz.ch/en.html">ETH Zurich</a>, where I am majoring in Visual and Interactive Computing. My minor is in Machine Learning. 
+                Before coming to ETH, I completed undegraduate degrees at <a href="https://www.rwth-aachen.de/go/id/a/?lidx=1">RWTH Aachen</a> in Germany and the
+                <a href="https://www.cam.ac.uk/">University of Cambridge</a> in the UK.
+              </p>
+              <p>
+                Over the past year, I have had the incredible opportunity to work with the <a href="https://igl.ethz.ch/">Interactive Geometry Lab</a> at ETH Zurich, 
+                supervised by <a href="https://peizhuoli.github.io/">Peizhuo Li</a> and Dr. <a href="https://korosteleva.com/">Maria Korosteleva</a> and advised by 
+                Prof. <a href="https://igl.ethz.ch/people/sorkine/">Olga Sorkine-Hornung</a>. This resulted in contributions to 
+                <a href = "https://igl.ethz.ch/projects/NeuralGarmentDynamics/">Neural Garment Dynamics</a> that I co-presented at EUROGRAPHICS 2024. 
               </p>
               <p style="text-align:center">
-                <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/leonidk">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=GCYG4GoAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/lkeselman"> LinkedIn </a>
+                <a target="_blank" href="https://mailhide.io/e/qQrMgLeZ"> Email</a> &nbsp;/&nbsp;
+                <a href="https://github.com/kesdogan">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://www.linkedin.com/in/timurkesdogan"> LinkedIn </a>&nbsp;/&nbsp;
+                <a href="https://twitter.com/TKesdogan">Twitter</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/circle_bw_crop.jpg">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/closer_up_hiking.png">
             </td>
           </tr>
-        </table> -->
+        </table>
 
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm interested in computer vision, machine learning, optimization, graphics and robotics.
+                My interests lie at the intersection of Computer Graphics and Machine Learning. 
+                Most notably, I am curious about generalizable and manipulable methods for 3D generation and simulation. 
+                My recent work has been in the domain of garment simulation and reconstruction. 
               </p>
             </td>
           </tr>
         </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"> -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
@@ -85,6 +93,9 @@
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
+              {% endif %}
+              {% if post.pdf %}
+              <a href="{{post.pdf}}">pdf</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
@@ -115,12 +126,12 @@
         <br>
         <br>
         <br>
+        
+        <!-- EDUCATION SECTION -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Intel Projects</h2>
-              <p>Besides my work on the RealSense depth sensors and the publications above, a sampling of my publicly disclosed work
-              </p>
+              <h2>Education</h2>
             </td>
           </tr>
         </table>
@@ -128,39 +139,29 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
+          {% if cat == 'education' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
+              <h3><a href={{post.uni_website}}>{{post.title}}</a></h3>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
+              {{post.authors}}
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
+              <br> 
+              {{post.degree_title}}<br>
+              <em>{{post.specialization}}</em><br>
+              {{post.start_date}} - {{post.end_date}}<br>
               <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              {% if post.arxiv %}
+              <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
+              {% if post.pdf %}
+              <a href="{{post.pdf}}">pdf</a> /
               {% endif %}
               {% if post.video %}
               <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
               {% endif %}
               {% if post.code %}
               <a href="{{post.code}}">code</a> /
@@ -171,8 +172,14 @@
               {% if post.slides %}
               <a href="{{post.slides}}">slides</a> /
               {% endif %}
-              <p></p>
-              {{ post.excerpt }}
+              {% if post.website %}
+              <a href="{{post.website}}">website</a> /
+              {% endif %}
+              {% if post.youtube %}
+              <a href="{{post.youtube}}">youtube</a> /
+              {% endif %}
+
+
             </td>
           </tr>
           {% endif %}
@@ -182,6 +189,10 @@
         <br>
         <br>
         <br>
+
+
+        <!-- OTHER PROJECTS -->
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
@@ -195,7 +206,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
+          {% if cat != 'research' and cat != 'Intel' and cat != 'education'%}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
@@ -246,6 +257,13 @@
           {% endfor %}
           {% endfor %}
         </table>
+
+
+        
+
+
+
+       
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
@@ -263,4 +281,3 @@
 </body>
 
 </html>
-
