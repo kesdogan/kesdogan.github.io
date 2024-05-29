@@ -5,7 +5,7 @@ date:   2024-05-27 12:00:00 +00:00
 image: /images/garmentcodedataset.png
 categories: research
 author: "Timur Levent Kesdogan"
-authors: "Maria Korosteleva, <strong>Timur Levent Kesdogan</strong>, Fabian Kemper, Stephan Wenninger, Jasmin Koller, Yuhan Zhang, Mario Botsch, Olga Sorkine-Hornung"
+authors: "Maria Korosteleva, <u>Timur Levent Kesdogan</u>, Fabian Kemper, Stephan Wenninger, Jasmin Koller, Yuhan Zhang, Mario Botsch, Olga Sorkine-Hornung"
 venue: "arXiv"
 pdf: https://arxiv.org/pdf/2405.17609
 dataset: https://www.research-collection.ethz.ch/handle/20.500.11850/673889

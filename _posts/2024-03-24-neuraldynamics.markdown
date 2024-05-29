@@ -5,7 +5,7 @@ date:   2024-03-24 12:00:00 +00:00
 image: /images/neuralgarmentdynamics-video_teaser.gif
 categories: research
 author: "Timur Levent Kesdogan"
-authors: "Peizhuo Li, Tuanfeng Y. Wang, <strong>Timur Levent Kesdogan</strong>, Duygu Ceylan, Olga Sorkine-Hornung"
+authors: "Peizhuo Li, Tuanfeng Y. Wang, <u>Timur Levent Kesdogan</u>, Duygu Ceylan, Olga Sorkine-Hornung"
 venue: "EUROGRAPHICS"
 pdf: https://igl.ethz.ch/projects/NeuralGarmentDynamics/Paper.pdf
 code: https://github.com/PeizhuoLi/manifold-aware-transformers/
