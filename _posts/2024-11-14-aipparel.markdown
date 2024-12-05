@@ -5,7 +5,7 @@ date:   2024-11-14 12:00:00 +00:00
 image: /images/aipparel-teaser.png
 categories: research
 author: "Timur Levent Kesdogan"
-authors: "Kiyohiro Nakayama*, Jan Ackermann*, <u>Timur Levent Kesdogan*<u>, Yang Zheng, Maria Korosteleva, Olga Sorkine-Hornung, Leonidas Guibas, Guandao Yang, Gordon Wetzstein"
+authors: "Kiyohiro Nakayama*, Jan Ackermann*, <u>Timur Levent Kesdogan*</u>, Yang Zheng, Maria Korosteleva, Olga Sorkine-Hornung, Leonidas Guibas, Guandao Yang, Gordon Wetzstein"
 venue: "submitted to conference"
 # pdf: https://arxiv.org/pdf/2405.17609
 # dataset: https://www.research-collection.ethz.ch/handle/20.500.11850/673889
