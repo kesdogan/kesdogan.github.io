@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "AIpparel: A Large Multimodal Generative Model for Digital Garments"
+date:   2024-11-14 12:00:00 +00:00
+image: /images/aipparel-teaser.png
+categories: research
+author: "Timur Levent Kesdogan"
+authors: "Kiyohiro Nakayama*, Jan Ackermann*, <u>Timur Levent Kesdogan*<u>, Yang Zheng, Maria Korosteleva, Olga Sorkine-Hornung, Leonidas Guibas, Guandao Yang, Gordon Wetzstein"
+venue: "submitted to conference"
+# pdf: https://arxiv.org/pdf/2405.17609
+# dataset: https://www.research-collection.ethz.ch/handle/20.500.11850/673889
+# code: https://github.com/maria-korosteleva/GarmentCode
+---
+AIpparel is a multimodal generative model for digital garments trained by fine-tuning a large multimodal model on a custom sewing pattern dataset using a novel tokenization scheme for these patterns. AIpparel generates complex, diverse, high-quality sewing patterns based on multimodal inputs, such as text and images, and it unlocks new applications such as language-instructed sewing pattern editing. The generated sewing patterns can be directly used to simulate the corresponding 3D garments.
+
