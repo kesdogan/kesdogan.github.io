@@ -7,7 +7,8 @@ categories: research
 author: "Timur Levent Kesdogan"
 authors: "Kiyohiro Nakayama*, Jan Ackermann*, <u>Timur Levent Kesdogan*</u>, Yang Zheng, Maria Korosteleva, Olga Sorkine-Hornung, Leonidas Guibas, Guandao Yang, Gordon Wetzstein"
 venue: "submitted to conference"
-# pdf: https://arxiv.org/pdf/2405.17609
+pdf: https://www.arxiv.org/pdf/2412.03937
+website: https://georgenakayama.github.io/AIpparel/
 # dataset: https://www.research-collection.ethz.ch/handle/20.500.11850/673889
 # code: https://github.com/maria-korosteleva/GarmentCode
 ---
